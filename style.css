@@ -1,26 +1,36 @@
 <script src="script.js"></script>
 body {
-  background-color: #f0f8ff;
+  margin: 0;
   font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 40px;
-}
-input {
-  padding: 10px;
-  width: 220px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
+  background-color: #f5f7fa;
+  color: #333;
 }
 
-button {
-  padding: 10px 16px;
-  border: none;
+header {
   background-color: #3333cc;
   color: white;
-  border-radius: 6px;
-  cursor: pointer;
+  padding: 40px 20px;
+  text-align: center;
 }
 
-button:hover {
-  background-color: #5555ee;
+section {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 700px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #3333cc;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px 0;
 }
