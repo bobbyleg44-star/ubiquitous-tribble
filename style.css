@@ -34,3 +34,8 @@ ul {
 li {
   padding: 8px 0;
 }
+let myName = "Your Name";
+let myAge = 18;
+
+console.log("My name is " + myName);
+console.log("I am " + myAge + " years old");
