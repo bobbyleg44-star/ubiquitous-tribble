@@ -19,6 +19,19 @@ greetButton.addEventListener("click", () => {
     greeting.textContent = "Hello, " + name + "! Welcome to my website 🚀";
   }
 });
+function sayHello(name) {
+  console.log("Hello " + name + "!");
+}
+
+sayHello("Visitor");
+sayHello(myName);
+function calculateYearOfBirth(age) {
+  let year = 2025 - age;
+  console.log("You were born in " + year);
+}
+
+calculateYearOfBirth;
+
 let temperature = 30;
 
 if (temperature > 25) {
