@@ -8,7 +8,7 @@ button.add EventListener("click", () => {
 const greetButton = document.getElementById("greetButton");
 const nameInput = document.getElementById("nameInput");
 const greeting = document.getElementById("greeting");
-greetButton.add("click", () => {
+greetButton.add evenlistener ("click", () => {
   const name = nameInput.value;
   if (name === "") {
     greeting.textContent = "Please enter your name 🙂";
