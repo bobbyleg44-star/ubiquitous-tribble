@@ -1,7 +1,6 @@
 // Find the button and paragraph by their IDs
 const button = document.getElementById("myButton");
 const demo = document.getElementById("demo");
-
 button.addEventListener("click", () => {
   demo.textContent = "Nice! You’re learning JavaScript 🚀";
   demo.style.color = "#3333cc";
@@ -9,10 +8,8 @@ button.addEventListener("click", () => {
 const greetButton = document.getElementById("greetButton");
 const nameInput = document.getElementById("nameInput");
 const greeting = document.getElementById("greeting");
-
-greetButton.addEventListener("click", () => {
+greetButton.add("click", () => {
   const name = nameInput.value;
-
   if (name === "") {
     greeting.textContent = "Please enter your name 🙂";
   } else {
@@ -22,18 +19,14 @@ greetButton.addEventListener("click", () => {
 function sayHello(name) {
   console.log("Hello " + name + "!");
 }
-
 sayHello("Visitor");
 sayHello(myName);
 function calculateYearOfBirth(age) {
   let year = 2025 - age;
   console.log("You were born in " + year);
 }
-
 calculateYearOfBirth;
-
 let temperature = 30;
-
 if (temperature > 25) {
   console.log("It's hot today! 🔥");
 } else if (temperature > 15) {
