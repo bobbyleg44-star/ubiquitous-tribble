@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head><link rel="stylesheet" href="style.css">
+    <title>Empirezii</title>
+    <title>Empire zii</title>
+    <style>
+      body {
+  background-color: #f0f8ff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #444;
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  margin: 8px auto;
+  padding: 10px;
+  width: 200px;
+  border-radius: 8px;
+}
+    </style>
+    </head>
+    <body><img src="profile.jpg" alt="My profile picture" class="profile-pic">
+  <button id="myButton">Click me!</button>
+<p id="demo"></p>
+    <h1>Hello, I am Empire zii 🚀</h1>
+    <p>This is my first live website.</p>
+    <p>I built this myself.</p>
+  </body><script src="script.js"></script>
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Page</title>
+  </head>
+  <body>
+    <h1>Our first clothing line 🚀</h1>
+    <p>503.</p>
+
+    <h2>About Me</h2>
+    <p>
+      I am learning software development and this is my journey.
+    </p>
+
+    <h2>What I’m Learning</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+
+    <a href="https://www.instagram.com/g_o_djr53?igsh=MTV4cmFiZTU0eHAxdg%3D%3D&utm_source=qr" target="_blank" rel="noopener">
+      Visit my page 
+    </a>
+
+    <script src="script.js"></script>
+  </body><h2>Say Hello 👋</h2>
+
+<input type="text" id="nameInput" placeholder="Enter your name">
+<br><br>
+<button id="greetButton">Greet me</button>
+
+<p id="greeting"></p>
+
+</html>
