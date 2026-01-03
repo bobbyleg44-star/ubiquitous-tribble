@@ -19,5 +19,14 @@ greetButton.addEventListener("click", () => {
     greeting.textContent = "Hello, " + name + "! Welcome to my website 🚀";
   }
 });
+let temperature = 30;
+
+if (temperature > 25) {
+  console.log("It's hot today! 🔥");
+} else if (temperature > 15) {
+  console.log("Nice weather today! 🙂");
+} else {
+  console.log("It's cold today! ❄️");
+}
 
 
