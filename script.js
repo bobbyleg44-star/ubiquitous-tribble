@@ -1,8 +1,9 @@
 // Find the button and paragraph by their IDs
-const button = document.getElementById('myButton');
-const demo = document.getElementById('demo');
+const button = document.getElementById("myButton");
+const demo = document.getElementById("demo");
 
-// When the button is clicked, change the text
-button.addEventListener('click', () => {
-    demo.textContent = "You just clicked the button! 🎉";
+button.addEventListener("click", () => {
+  demo.textContent = "Nice! You’re learning JavaScript 🚀";
+  demo.style.color = "#3333cc";
 });
+
